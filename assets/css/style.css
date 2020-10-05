@@ -9,6 +9,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #ebe9e9;
 }
 
 #content {
@@ -16,11 +17,15 @@ main {
     height: 800px;
     box-sizing: border-box;
     padding: 127px 165px 100px 165px;
+    background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-color: white;
 }
 
 h1 {
     color: #512051;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 48px;
     letter-spacing: -1.71px;
     width: 100%;
@@ -129,4 +134,12 @@ article img {
 h3 {
     font-weight: bold;
     margin: 0px;
+}
+
+.article3 {
+    margin-top: 32px;
+}
+
+.article2 {
+    margin-top: 16px;
 }
